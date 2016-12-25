@@ -3,6 +3,9 @@
     <string name="title">TRENCE</string>
     <string name="quotes">We will help you to go to your dream places</string>
     <string name="title_activity_starting">Starting</string>
+    <string name="destination">Destination</string>
+    <string name="your_place">Your Place</string>
+
     <string-array name="City">
         <item>Hamilton,Bermuda</item>
         <item>Geneva,Switzerland</item>
@@ -2225,4 +2228,7 @@
         <item>11.41</item>
 
     </string-array>
+
+
+
 </resources>
