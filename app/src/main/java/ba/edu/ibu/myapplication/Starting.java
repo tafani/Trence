@@ -11,6 +11,7 @@ import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import java.lang.reflect.Array;
 
@@ -28,21 +29,35 @@ public class Starting extends AppCompatActivity {
         destin = (AutoCompleteTextView) findViewById(R.id.destination_city);
         daysET = (EditText) findViewById(R.id.editText2);
         budgetET = (EditText) findViewById(R.id.budget);
+
+
         if (destin != null) {
             destin.setAdapter(new ArrayAdapter<>(this, R.layout.list_detail, cities));
         }
+
+
     }
 
     public void calculateMe(View view) {
-        int days = Integer.parseInt(daysET.getText().toString());
-        int budget = Integer.parseInt(budgetET.getText().toString());
-        String dest = destin.getText().toString();
-
-        Intent Budget = new Intent(Starting.this, ba.edu.ibu.myapplication.Budget.class);
-        Budget.putExtra("city",dest);
-        Budget.putExtra("budget",budget);
-        Budget.putExtra("days",days);
-        startActivity(Budget);
+        if(destin.getText().toString().equals("")){
+            Toast.makeText(getApplicationContext(),"You cannot leave the destination empty ",Toast.LENGTH_LONG).show();
+        } else
+        if(daysET.getText().toString().equals("")){
+            Toast.makeText(getApplicationContext(),"You cannot leave the period empty"+daysET.getText(),Toast.LENGTH_LONG).show();
+        } else
+        if(budgetET.getText().toString().equals("")){
+            Toast.makeText(getApplicationContext(),"You cannot leave the budget empty",Toast.LENGTH_LONG).show();
+        } else
+        {
+            int days = Integer.parseInt(daysET.getText().toString());
+            int budget = Integer.parseInt(budgetET.getText().toString());
+            String dest = destin.getText().toString();
+            Intent Budget = new Intent(Starting.this, ba.edu.ibu.myapplication.Budget.class);
+            Budget.putExtra("city",dest);
+            Budget.putExtra("budget",budget);
+            Budget.putExtra("days",days);
+            startActivity(Budget);
+        }
     }
 
 }
