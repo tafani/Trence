@@ -6,20 +6,51 @@
     android:background="@drawable/start">
 
     <AutoCompleteTextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_marginTop="64dp"
         android:id="@+id/destination_city"
-        android:text="@string/destination" />
+        android:hint="@string/destination" />
 
-    <AutoCompleteTextView
-        android:text="@string/your_place"
-        android:layout_width="wrap_content"
+    <EditText
+        android:hint="@string/your_place"
+        android:inputType="number"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_below="@+id/destination_city"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="29dp"
-        android:id="@+id/start_city" />
+        android:id="@+id/budget" />
+
+    <EditText
+        android:hint="@string/how_long"
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:layout_marginTop="27dp"
+        android:id="@+id/editText2"
+        android:layout_below="@+id/budget"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="@string/calculate"
+        android:layout_width="match_parent"
+        style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+        android:background="@color/colorAccent"
+        android:textColor="#FFFFFF"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentBottom="true"
+        android:onClick="calculateMe"
+        android:id="@+id/button2" />
+
 </RelativeLayout>

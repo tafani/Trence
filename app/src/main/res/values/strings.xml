@@ -4,561 +4,564 @@
     <string name="quotes">We will help you to go to your dream places</string>
     <string name="title_activity_starting">Starting</string>
     <string name="destination">Destination</string>
-    <string name="your_place">Your Place</string>
+    <string name="your_place">Your Budget ($)</string>
+    <string name="how_long">How long (days)</string>
+    <string name="calculate">Calculate me</string>
 
     <string-array name="City">
-        <item>Hamilton,Bermuda</item>
-        <item>Geneva,Switzerland</item>
-        <item>Basel,Switzerland</item>
-        <item>Zurich,Switzerland</item>
-        <item>Cuneo,Italy</item>
-        <item>Ferrara,Italy</item>
-        <item>Perugia,Italy</item>
-        <item>Venice,Italy</item>
-        <item>ReggioNell emilia,Italy</item>
-        <item>Lausanne,Switzerland</item>
-        <item>Bern,Switzerland</item>
-        <item>Zug,Switzerland</item>
-        <item>Reykjavik,Iceland</item>
-        <item>St.Gallen,Switzerland</item>
-        <item>Stavanger,Norway</item>
-        <item>Lugano,Switzerland</item>
-        <item>Tromso,Norway</item>
-        <item>Trondheim,Norway</item>
-        <item>Oslo,Norway</item>
-        <item>Bergen,Norway</item>
-        <item>Vicenza,Italy</item>
-        <item>Nassau,Bahamas</item>
-        <item>NewYork,NY,UnitedStates</item>
-        <item>SanFrancisco,CA,UnitedStates</item>
-        <item>Honolulu,HI,UnitedStates</item>
-        <item>Anchorage,AK,UnitedStates</item>
-        <item>Modena,Italy</item>
-        <item>Alessandria,Italy</item>
-        <item>Treviso,Italy</item>
-        <item>Washington,DC,UnitedStates</item>
-        <item>Florence,Italy</item>
-        <item>NewHaven,CT,UnitedStates</item>
-        <item>Tokyo,Japan</item>
-        <item>Berkeley,CA,UnitedStates</item>
-        <item>Brooklyn,NY,UnitedStates</item>
-        <item>SantaCruz,CA,UnitedStates</item>
-        <item>Dusseldorf,Germany</item>
-        <item>KuwaitCity,Kuwait</item>
-        <item>Seattle,WA,UnitedStates</item>
-        <item>Trieste,Italy</item>
-        <item>Akron,OH,UnitedStates</item>
-        <item>Burlington,VT,UnitedStates</item>
-        <item>Boston,MA,UnitedStates</item>
-        <item>Oakland,CA,UnitedStates</item>
-        <item>FortMcMurray,Canada</item>
-        <item>Arlington,VA,UnitedStates</item>
-        <item>Padova,Italy</item>
-        <item>Copenhagen,Denmark</item>
-        <item>Sydney,Australia</item>
-        <item>Bath,UnitedKingdom</item>
-        <item>Limerick,Ireland</item>
-        <item>Auckland,NewZealand</item>
-        <item>Charleston,SC,UnitedStates</item>
-        <item>Hamilton,NewZealand</item>
-        <item>Pisa,Italy</item>
-        <item>Providence,RI,UnitedStates</item>
-        <item>Philadelphia,PA,UnitedStates</item>
-        <item>SantaRosa,CA,UnitedStates</item>
-        <item>London,UnitedKingdom</item>
-        <item>Perth,Australia</item>
-        <item>Allentown,PA,UnitedStates</item>
-        <item>Miami,FL,UnitedStates</item>
-        <item>FortCollins,CO,UnitedStates</item>
-        <item>Chicago,IL,UnitedStates</item>
-        <item>SaintPetersburg,FL,UnitedStates</item>
-        <item>Fairfax,VA,UnitedStates</item>
-        <item>Minneapolis,MN,UnitedStates</item>
-        <item>St.John s,NL,Canada</item>
-        <item>Seoul,SouthKorea</item>
-        <item>Irvine,CA,UnitedStates</item>
-        <item>Everett,WA,UnitedStates</item>
-        <item>Christchurch,NewZealand</item>
-        <item>Cairns,Australia</item>
-        <item>Leuven,Belgium</item>
-        <item>Paris,France</item>
-        <item>Boulder,CO,UnitedStates</item>
-        <item>Denver,CO,UnitedStates</item>
-        <item>Queens,NY,UnitedStates</item>
-        <item>SanJose,CA,UnitedStates</item>
-        <item>Arhus,Denmark</item>
-        <item>Aberdeen,UnitedKingdom</item>
-        <item>Melbourne,FL,UnitedStates</item>
-        <item>Singapore,Singapore</item>
-        <item>Asheville,NC,UnitedStates</item>
-        <item>Pittsburgh,PA,UnitedStates</item>
-        <item>Albany,NY,UnitedStates</item>
-        <item>Stockholm,Sweden</item>
-        <item>Verona,Italy</item>
-        <item>WestPalmBeach,FL,UnitedStates</item>
-        <item>RamatGan,Israel</item>
-        <item>Melbourne,Australia</item>
-        <item>TelAviv-yafo,Israel</item>
-        <item>LosAngeles,CA,UnitedStates</item>
-        <item>Aalborg,Denmark</item>
-        <item>Beersheba,Israel</item>
-        <item>Orlando,FL,UnitedStates</item>
-        <item>Brisbane,Australia</item>
-        <item>Greensboro,NC,UnitedStates</item>
-        <item>Sacramento,CA,UnitedStates</item>
-        <item>HongKong,HongKong</item>
-        <item>Adelaide,Australia</item>
-        <item>Dublin,Ireland</item>
-        <item>Odense,Denmark</item>
-        <item>Busan,SouthKorea</item>
-        <item>Linz,Austria</item>
-        <item>Hobart,Australia</item>
-        <item>Wellington,NewZealand</item>
-        <item>NewOrleans,LA,UnitedStates</item>
-        <item>Luxembourg,Luxembourg</item>
-        <item>Gent,Belgium</item>
-        <item>Portland,OR,UnitedStates</item>
-        <item>Grenoble,France</item>
-        <item>SantaBarbara,CA,UnitedStates</item>
-        <item>Strasbourg,France</item>
-        <item>Jerusalem,Israel</item>
-        <item>Baltimore,MD,UnitedStates</item>
-        <item>Hartford,CT,UnitedStates</item>
-        <item>Waterloo,Canada</item>
-        <item>DesMoines,IA,UnitedStates</item>
-        <item>Genoa,Italy</item>
-        <item>Haarlem,Netherlands</item>
-        <item>Bolzano-Bozen,Italy</item>
-        <item>Milan,Italy</item>
-        <item>Cagliari,Italy</item>
-        <item>Darwin,Australia</item>
-        <item>Canberra,Australia</item>
-        <item>GrandRapids,MI,UnitedStates</item>
-        <item>Antwerp,Belgium</item>
-        <item>Amsterdam,Netherlands</item>
-        <item>Detroit,MI,UnitedStates</item>
-        <item>Helsinki,Finland</item>
-        <item>JerseyCity,NJ,UnitedStates</item>
-        <item>Saskatoon,Canada</item>
-        <item>Cleveland,OH,UnitedStates</item>
-        <item>FortLauderdale,FL,UnitedStates</item>
-        <item>Newcastle,Australia</item>
-        <item>Tacoma,WA,UnitedStates</item>
-        <item>SanDiego,CA,UnitedStates</item>
-        <item>Bergamo,Italy</item>
-        <item>Jacksonville,FL,UnitedStates</item>
-        <item>RedDeer,Canada</item>
-        <item>Harrisburg,PA,UnitedStates</item>
-        <item>Nice,France</item>
-        <item>Halifax,Canada</item>
-        <item>TheHague,Netherlands</item>
-        <item>Lyon,France</item>
-        <item>ColoradoSprings,CO,UnitedStates</item>
-        <item>Bournemouth,UnitedKingdom</item>
-        <item>Fayetteville,AR,UnitedStates</item>
-        <item>Buffalo,NY,UnitedStates</item>
-        <item>Hamburg,Germany</item>
-        <item>Wollongong,Australia</item>
-        <item>Brighton,UnitedKingdom</item>
-        <item>Frankfurt,Germany</item>
-        <item>SaintPaul,MN,UnitedStates</item>
-        <item>Atlanta,GA,UnitedStates</item>
-        <item>Brussels,Belgium</item>
-        <item>Houston,TX,UnitedStates</item>
-        <item>Charlotte,NC,UnitedStates</item>
-        <item>MiltonKeynes,UnitedKingdom</item>
-        <item>Cambridge,UnitedKingdom</item>
-        <item>Indianapolis,IN,UnitedStates</item>
-        <item>Calgary,Canada</item>
-        <item>Tampa,FL,UnitedStates</item>
-        <item>SaintLouis,MO,UnitedStates</item>
-        <item>Tampere,Finland</item>
-        <item>Bakersfield,CA,UnitedStates</item>
-        <item>GoldCoast,Australia</item>
-        <item>Milwaukee,WI,UnitedStates</item>
-        <item>Syracuse,NY,UnitedStates</item>
-        <item>Edinburgh,UnitedKingdom</item>
-        <item>Rome,Italy</item>
-        <item>Turku,Finland</item>
-        <item>Cork,Ireland</item>
-        <item>Wichita,KS,UnitedStates</item>
-        <item>Montpellier,France</item>
-        <item>Haifa,Israel</item>
-        <item>Charlottesville,VA,UnitedStates</item>
-        <item>LittleRock,AR,UnitedStates</item>
-        <item>Savannah,GA,UnitedStates</item>
-        <item>Victoria,Canada</item>
-        <item>Gothenburg,Sweden</item>
-        <item>Innsbruck,Austria</item>
-        <item>Louisville,KY,UnitedStates</item>
-        <item>Plano,TX,UnitedStates</item>
-        <item>Edmonton,Canada</item>
-        <item>Bellingham,WA,UnitedStates</item>
-        <item>Tallahassee,FL,UnitedStates</item>
-        <item>Toulouse,France</item>
-        <item>Birmingham,AL,UnitedStates</item>
-        <item>Nashville,TN,UnitedStates</item>
-        <item>Greenville,SC,UnitedStates</item>
-        <item>Rennes,France</item>
-        <item>Reading,UnitedKingdom</item>
-        <item>Oxford,UnitedKingdom</item>
-        <item>Durham,NC,UnitedStates</item>
-        <item>Oulu,Finland</item>
-        <item>Utrecht,Netherlands</item>
-        <item>Bristol,UnitedKingdom</item>
-        <item>Fresno,CA,UnitedStates</item>
-        <item>Portsmouth,UnitedKingdom</item>
-        <item>Austin,TX,UnitedStates</item>
-        <item>Chattanooga,TN,UnitedStates</item>
-        <item>Spokane,WA,UnitedStates</item>
-        <item>Raleigh,NC,UnitedStates</item>
-        <item>Mississauga,Canada</item>
-        <item>Windsor,Canada</item>
-        <item>Columbus,OH,UnitedStates</item>
-        <item>Newark,NJ,UnitedStates</item>
-        <item>Norwich,UnitedKingdom</item>
-        <item>Vancouver,WA,UnitedStates</item>
-        <item>Regina,Canada</item>
-        <item>Burlington,Canada</item>
-        <item>SiouxFalls,SD,UnitedStates</item>
-        <item>Vancouver,Canada</item>
-        <item>FortWorth,TX,UnitedStates</item>
-        <item>Eugene,OR,UnitedStates</item>
-        <item>London,Canada</item>
-        <item>LasVegas,NV,UnitedStates</item>
-        <item>Montreal,Canada</item>
-        <item>DenHaag,Netherlands</item>
-        <item>Winnipeg,Canada</item>
-        <item>Rotterdam,Netherlands</item>
-        <item>SanJuan,PuertoRico</item>
-        <item>Southampton,UnitedKingdom</item>
-        <item>VirginiaBeach,VA,UnitedStates</item>
-        <item>Lille,France</item>
-        <item>Munich,Germany</item>
-        <item>Barrie,Canada</item>
-        <item>Parma,Italy</item>
-        <item>Columbia,SC,UnitedStates</item>
-        <item>Heidelberg,Germany</item>
-        <item>Pensacola,FL,UnitedStates</item>
-        <item>Dayton,OH,UnitedStates</item>
-        <item>Tulsa,OK,UnitedStates</item>
-        <item>Fremont,CA,UnitedStates</item>
-        <item>Bologna,Italy</item>
-        <item>Dubai,UnitedArabEmirates</item>
-        <item>York,UnitedKingdom</item>
-        <item>Salem,OR,UnitedStates</item>
-        <item>Liverpool,UnitedKingdom</item>
-        <item>Toronto,Canada</item>
-        <item>Manchester,UnitedKingdom</item>
-        <item>Galway,Ireland</item>
-        <item>Dallas,TX,UnitedStates</item>
-        <item>Knoxville,TN,UnitedStates</item>
-        <item>Karlsruhe,Germany</item>
-        <item>FortWayne,IN,UnitedStates</item>
-        <item>Glasgow,UnitedKingdom</item>
-        <item>Trento,Italy</item>
-        <item>FortMyers,FL,UnitedStates</item>
-        <item>Exeter,UnitedKingdom</item>
-        <item>AdDammam,SaudiArabia</item>
-        <item>Eindhoven,Netherlands</item>
-        <item>Gainesville,FL,UnitedStates</item>
-        <item>AnnArbor,MI,UnitedStates</item>
-        <item>Rochester,NY,UnitedStates</item>
-        <item>Malmo,Sweden</item>
-        <item>Leicester,UnitedKingdom</item>
-        <item>Groningen,Netherlands</item>
-        <item>Uppsala,Sweden</item>
-        <item>Madison,WI,UnitedStates</item>
-        <item>Leiden,Netherlands</item>
-        <item>Montevideo,Uruguay</item>
-        <item>Phoenix,AZ,UnitedStates</item>
-        <item>KansasCity,MO,UnitedStates</item>
-        <item>Doha,Qatar</item>
-        <item>Kingston,Canada</item>
-        <item>Cologne,Germany</item>
-        <item>Ottawa,Canada</item>
-        <item>SaltLakeCity,UT,UnitedStates</item>
-        <item>Sliema,Malta</item>
-        <item>Shreveport,LA,UnitedStates</item>
-        <item>Vienna,Austria</item>
-        <item>QuebecCity,Canada</item>
-        <item>Stuttgart,Germany</item>
-        <item>Moncton,Canada</item>
-        <item>Leeds,UnitedKingdom</item>
-        <item>Sheffield,UnitedKingdom</item>
-        <item>Albuquerque,NM,UnitedStates</item>
-        <item>Surrey,Canada</item>
-        <item>Mannheim,Germany</item>
-        <item>Nottingham,UnitedKingdom</item>
-        <item>Turin,Italy</item>
-        <item>Palermo,Italy</item>
-        <item>Huntsville,AL,UnitedStates</item>
-        <item>Birmingham,UnitedKingdom</item>
-        <item>Nantes,France</item>
-        <item>NewcastleUponTyne,UnitedKingdom</item>
-        <item>Coventry,UnitedKingdom</item>
-        <item>Kelowna,Canada</item>
-        <item>Mobile,AL,UnitedStates</item>
-        <item>Accra,Ghana</item>
-        <item>Guelph,Canada</item>
-        <item>OklahomaCity,OK,UnitedStates</item>
-        <item>Northampton,UnitedKingdom</item>
-        <item>Cardiff,UnitedKingdom</item>
-        <item>Taipei,Taiwan</item>
-        <item>Naples,Italy</item>
-        <item>Macao,Macao</item>
-        <item>Valletta,Malta</item>
-        <item>Brescia,Italy</item>
-        <item>Bari,Italy</item>
-        <item>Beirut,Lebanon</item>
-        <item>Plymouth,UnitedKingdom</item>
-        <item>Berlin,Germany</item>
-        <item>AbuDhabi,UnitedArabEmirates</item>
-        <item>Kingston,Jamaica</item>
-        <item>Boise,ID,UnitedStates</item>
-        <item>Tucson,AZ,UnitedStates</item>
-        <item>Bilbao,Spain</item>
-        <item>Leipzig,Germany</item>
-        <item>Nuremberg,Germany</item>
-        <item>PanamaCity,Panama</item>
-        <item>Bonn,Germany</item>
-        <item>Catania,Italy</item>
-        <item>Belfast,UnitedKingdom</item>
-        <item>Kitchener,Canada</item>
-        <item>Reno,NV,UnitedStates</item>
-        <item>Marseille,France</item>
-        <item>Malta,Malta</item>
-        <item>SanJose,CostaRica</item>
-        <item>Sharjah,UnitedArabEmirates</item>
-        <item>SanAntonio,TX,UnitedStates</item>
-        <item>Barcelona,Spain</item>
-        <item>Athens,GA,UnitedStates</item>
-        <item>Paphos,Cyprus</item>
-        <item>Male,Maldives</item>
-        <item>Hamilton,Canada</item>
-        <item>Nicosia,Cyprus</item>
-        <item>Dresden,Germany</item>
-        <item>Graz,Austria</item>
-        <item>Irbil,Iraq</item>
-        <item>Amman,Jordan</item>
-        <item>Aachen,Germany</item>
-        <item>Madrid,Spain</item>
-        <item>Zaragoza(Saragossa),Spain</item>
-        <item>Springfield,MO,UnitedStates</item>
-        <item>Bremen,Germany</item>
-        <item>PalmaDeMallorca,Spain</item>
-        <item>BuenosAires,Argentina</item>
-        <item>DarEsSalaam,Tanzania</item>
-        <item>Athens,Greece</item>
-        <item>Ljubljana,Slovenia</item>
-        <item>Ulaanbaatar,Mongolia</item>
-        <item>Limassol,Cyprus</item>
-        <item>Manama,Bahrain</item>
-        <item>Thessaloniki,Greece</item>
-        <item>Heraklion,Greece</item>
-        <item>RioDeJaneiro,Brazil</item>
-        <item>SaoPaulo,Brazil</item>
-        <item>Muscat,Oman</item>
-        <item>Santiago,Chile</item>
-        <item>Shanghai,China</item>
-        <item>Campinas,Brazil</item>
-        <item>Kaohsiung,Taiwan</item>
-        <item>Corfu,Greece</item>
-        <item>Brasilia,Brazil</item>
-        <item>Valencia,Spain</item>
-        <item>SantoDomingo,DominicanRepublic</item>
-        <item>Shenzhen,China</item>
-        <item>Granada,Spain</item>
-        <item>Cordoba,Argentina</item>
-        <item>Chania,Greece</item>
-        <item>Alicante,Spain</item>
-        <item>Harare,Zimbabwe</item>
-        <item>Rijeka,Croatia</item>
-        <item>Tallinn,Estonia</item>
-        <item>Patras,Greece</item>
-        <item>Makati,Philippines</item>
-        <item>Guayaquil,Ecuador</item>
-        <item>Split,Croatia</item>
-        <item>Lisbon,Portugal</item>
-        <item>PhnomPenh,Cambodia</item>
-        <item>Jeddah(Jiddah),SaudiArabia</item>
-        <item>PortoAlegre,Brazil</item>
-        <item>Tripoli,Libya</item>
-        <item>Bangkok,Thailand</item>
-        <item>Malaga,Spain</item>
-        <item>Sevilla,Spain</item>
-        <item>Phuket,Thailand</item>
-        <item>Beijing,China</item>
-        <item>Riga,Latvia</item>
-        <item>Zagreb,Croatia</item>
-        <item>Porto,Portugal</item>
-        <item>Riyadh,SaudiArabia</item>
-        <item>Quito,Ecuador</item>
-        <item>Recife,Brazil</item>
-        <item>Florianopolis,Brazil</item>
-        <item>Tartu,Estonia</item>
-        <item>AlKhobar,SaudiArabia</item>
-        <item>Jakarta,Indonesia</item>
-        <item>SanSalvador,ElSalvador</item>
-        <item>Bratislava,Slovakia</item>
-        <item>BeloHorizonte,Brazil</item>
-        <item>Coimbra,Portugal</item>
-        <item>Maribor,Slovenia</item>
-        <item>Cuenca,Ecuador</item>
-        <item>AddisAbaba,Ethiopia</item>
-        <item>Vilnius,Lithuania</item>
-        <item>Curitiba,Brazil</item>
-        <item>Concepcion,Chile</item>
-        <item>Braga,Portugal</item>
-        <item>KotaKinabalu,Malaysia</item>
-        <item>Guangzhou,China</item>
-        <item>Johannesburg,SouthAfrica</item>
-        <item>GuatemalaCity,Guatemala</item>
-        <item>Kaunas,Lithuania</item>
-        <item>Kosice,Slovakia</item>
-        <item>Surabaya,Indonesia</item>
-        <item>Fortaleza,Brazil</item>
-        <item>Istanbul,Turkey</item>
-        <item>Windhoek,Namibia</item>
-        <item>CapeTown,SouthAfrica</item>
-        <item>Bali,Indonesia</item>
-        <item>KualaLumpur,Malaysia</item>
-        <item>Budapest,Hungary</item>
-        <item>Prague,CzechRepublic</item>
-        <item>Moscow,Russia</item>
-        <item>HoChiMinhCity,Vietnam</item>
-        <item>Pattaya,Thailand</item>
-        <item>Penang,Malaysia</item>
-        <item>Osijek,Croatia</item>
-        <item>Nairobi,Kenya</item>
-        <item>Kuching,Malaysia</item>
-        <item>ChiangMai,Thailand</item>
-        <item>Hanoi,Vietnam</item>
-        <item>Lima,Peru</item>
-        <item>Tehran,Iran</item>
-        <item>JohorBahru,Malaysia</item>
-        <item>Kigali,Rwanda</item>
-        <item>Selangor,Malaysia</item>
-        <item>Brno,CzechRepublic</item>
-        <item>Durban,SouthAfrica</item>
-        <item>Warsaw,Poland</item>
-        <item>Manila,Philippines</item>
-        <item>Rabat,Morocco</item>
-        <item>Debrecen,Hungary</item>
-        <item>Cebu,Philippines</item>
-        <item>Ankara,Turkey</item>
-        <item>Antalya,Turkey</item>
-        <item>SaintPetersburg,Russia</item>
-        <item>Gaborone,Botswana</item>
-        <item>Lagos,Nigeria</item>
-        <item>Podgorica,Montenegro</item>
-        <item>Izmir,Turkey</item>
-        <item>Bucharest,Romania</item>
-        <item>Olomouc,CzechRepublic</item>
-        <item>Caracas,Venezuela</item>
-        <item>Bursa,Turkey</item>
-        <item>Bydgoszcz,Poland</item>
-        <item>Wroclaw,Poland</item>
-        <item>Colombo,SriLanka</item>
-        <item>Ostrava,CzechRepublic</item>
-        <item>Gdansk,Poland</item>
-        <item>Sarajevo,BosniaAndHerzegovina</item>
-        <item>Gdynia,Poland</item>
-        <item>Krakow(Cracow),Poland</item>
-        <item>Bogota,Colombia</item>
-        <item>Sofia,Bulgaria</item>
-        <item>Dhaka,Bangladesh</item>
-        <item>Bandung,Indonesia</item>
-        <item>Poznan,Poland</item>
-        <item>Szczecin,Poland</item>
-        <item>Casablanca,Morocco</item>
-        <item>Cluj-napoca,Romania</item>
-        <item>Belgrade,Serbia</item>
-        <item>Kampala,Uganda</item>
-        <item>Lodz,Poland</item>
-        <item>Algiers,Algeria</item>
-        <item>Lublin,Poland</item>
-        <item>Plovdiv,Bulgaria</item>
-        <item>Varna,Bulgaria</item>
-        <item>Astana,Kazakhstan</item>
-        <item>Timisoara,Romania</item>
-        <item>MexicoCity,Mexico</item>
-        <item>Cancun,Mexico</item>
-        <item>QuezonCity,Philippines</item>
-        <item>Sibiu,Romania</item>
-        <item>Skopje,Macedonia</item>
-        <item>BanjaLuka,BosniaAndHerzegovina</item>
-        <item>Yekaterinburg,Russia</item>
-        <item>Katowice,Poland</item>
-        <item>Monterrey,Mexico</item>
-        <item>Minsk,Belarus</item>
-        <item>Oradea,Romania</item>
-        <item>Queretaro,Mexico</item>
-        <item>Iasi,Romania</item>
-        <item>PlayadelCarmen,Mexico</item>
-        <item>Brasov,Romania</item>
-        <item>NoviSad,Serbia</item>
-        <item>Islamabad,Pakistan</item>
-        <item>Yerevan,Armenia</item>
-        <item>Tirana,Albania</item>
-        <item>Asuncion,Paraguay</item>
-        <item>Almaty,Kazakhstan</item>
-        <item>Arad,Romania</item>
-        <item>Kathmandu,Nepal</item>
-        <item>Lahore,Pakistan</item>
-        <item>Novosibirsk,Russia</item>
-        <item>Medellin,Colombia</item>
-        <item>Kazan,Russia</item>
-        <item>Merida,Mexico</item>
-        <item>Gurgaon,India</item>
-        <item>Tijuana,Mexico</item>
-        <item>Davao,Philippines</item>
-        <item>Tunis,Tunisia</item>
-        <item>Guadalajara,Mexico</item>
-        <item>Valenzuela,Philippines</item>
-        <item>Cali,Colombia</item>
-        <item>Mumbai,India</item>
-        <item>Odesa,Ukraine</item>
-        <item>Delhi,India</item>
-        <item>Ludhiana,India</item>
-        <item>Kiev,Ukraine</item>
-        <item>Tbilisi,Georgia</item>
-        <item>Chisinau,Moldova</item>
-        <item>Karachi,Pakistan</item>
-        <item>Baku,Azerbaijan</item>
-        <item>Thane,India</item>
-        <item>Noida,India</item>
-        <item>Bangalore,India</item>
-        <item>Pune,India</item>
-        <item>Chennai,India</item>
-        <item>Pristina,Kosovo(DisputedTerritory)</item>
-        <item>Chandigarh,India</item>
-        <item>Kharkiv,Ukraine</item>
-        <item>Vadodara,India</item>
-        <item>Kolkata,India</item>
-        <item>Dnipropetrovsk,Ukraine</item>
-        <item>NaviMumbai,India</item>
-        <item>Surat,India</item>
-        <item>Lucknow(Lakhnau),India</item>
-        <item>Goa,India</item>
-        <item>Ahmedabad,India</item>
-        <item>Jaipur,India</item>
-        <item>Lviv,Ukraine</item>
-        <item>Nagpur,India</item>
-        <item>Guwahati,India</item>
-        <item>Indore,India</item>
-        <item>Sumy,Ukraine</item>
-        <item>Mysore,India</item>
-        <item>Nasik,India</item>
-        <item>Hyderabad,India</item>
-        <item>Kochi,India</item>
-        <item>Visakhapatnam,India</item>
-        <item>Coimbatore,India</item>
-        <item>Bhubaneswar,India</item>
-        <item>Cairo,Egypt</item>
-        <item>Mangalore,India</item>
-        <item>Madurai,India</item>
-        <item>Thiruvananthapuram,India</item>
+        <item> Hamilton, Bermuda</item>
+        <item> Geneva, Switzerland</item>
+        <item> Basel, Switzerland</item>
+        <item> Zurich, Switzerland</item>
+        <item> Cuneo, Italy</item>
+        <item> Ferrara, Italy</item>
+        <item> Perugia, Italy</item>
+        <item> Venice, Italy</item>
+        <item> Reggio Nell emilia, Italy</item>
+        <item> Lausanne, Switzerland</item>
+        <item> Bern, Switzerland</item>
+        <item> Zug, Switzerland</item>
+        <item> Reykjavik, Iceland</item>
+        <item> St. Gallen, Switzerland</item>
+        <item> Stavanger, Norway</item>
+        <item> Lugano, Switzerland</item>
+        <item> Tromso, Norway</item>
+        <item> Trondheim, Norway</item>
+        <item> Oslo, Norway</item>
+        <item> Bergen, Norway</item>
+        <item> Vicenza, Italy</item>
+        <item> Nassau, Bahamas</item>
+        <item> New York, NY, United States</item>
+        <item> San Francisco, CA, United States</item>
+        <item> Honolulu, HI, United States</item>
+        <item> Anchorage, AK, United States</item>
+        <item> Modena, Italy</item>
+        <item> Alessandria, Italy</item>
+        <item> Treviso, Italy</item>
+        <item> Washington, DC, United States</item>
+        <item> Florence, Italy</item>
+        <item> New Haven, CT, United States</item>
+        <item> Tokyo, Japan</item>
+        <item> Berkeley, CA, United States</item>
+        <item> Brooklyn, NY, United States</item>
+        <item> Santa Cruz, CA, United States</item>
+        <item> Dusseldorf, Germany</item>
+        <item> Kuwait City, Kuwait</item>
+        <item> Seattle, WA, United States</item>
+        <item> Trieste, Italy</item>
+        <item> Akron, OH, United States</item>
+        <item> Burlington, VT, United States</item>
+        <item> Boston, MA, United States</item>
+        <item> Oakland, CA, United States</item>
+        <item> Fort Mc Murray, Canada</item>
+        <item> Arlington, VA, United States</item>
+        <item> Padova, Italy</item>
+        <item> Copenhagen, Denmark</item>
+        <item> Sydney, Australia</item>
+        <item> Bath, United Kingdom</item>
+        <item> Limerick, Ireland</item>
+        <item> Auckland, New Zealand</item>
+        <item> Charleston, SC, United States</item>
+        <item> Hamilton, New Zealand</item>
+        <item> Pisa, Italy</item>
+        <item> Providence, RI, United States</item>
+        <item> Philadelphia, PA, United States</item>
+        <item> Santa Rosa, CA, United States</item>
+        <item> London, United Kingdom</item>
+        <item> Perth, Australia</item>
+        <item> Allentown, PA, United States</item>
+        <item> Miami, FL, United States</item>
+        <item> Fort Collins, CO, United States</item>
+        <item> Chicago, IL, United States</item>
+        <item> Saint Petersburg, FL, United States</item>
+        <item> Fairfax, VA, United States</item>
+        <item> Minneapolis, MN, United States</item>
+        <item> St. Johns, NL, Canada</item>
+        <item> Seoul, South Korea</item>
+        <item> Irvine, CA, United States</item>
+        <item> Everett, WA, United States</item>
+        <item> Christchurch, New Zealand</item>
+        <item> Cairns, Australia</item>
+        <item> Leuven, Belgium</item>
+        <item> Paris, France</item>
+        <item> Boulder, CO, United States</item>
+        <item> Denver, CO, United States</item>
+        <item> Queens, NY, United States</item>
+        <item> San Jose, CA, United States</item>
+        <item> Arhus, Denmark</item>
+        <item> Aberdeen, United Kingdom</item>
+        <item> Melbourne, FL, United States</item>
+        <item> Singapore, Singapore</item>
+        <item> Asheville, NC, United States</item>
+        <item> Pittsburgh, PA, United States</item>
+        <item> Albany, NY, United States</item>
+        <item> Stockholm, Sweden</item>
+        <item> Verona, Italy</item>
+        <item> West Palm Beach, FL, United States</item>
+        <item> Ramat Gan, Israel</item>
+        <item> Melbourne, Australia</item>
+        <item> Tel Aviv-yafo, Israel</item>
+        <item> Los Angeles, CA, United States</item>
+        <item> Aalborg, Denmark</item>
+        <item> Beersheba, Israel</item>
+        <item> Orlando, FL, United States</item>
+        <item> Brisbane, Australia</item>
+        <item> Greensboro, NC, United States</item>
+        <item> Sacramento, CA, United States</item>
+        <item> Hong Kong, Hong Kong</item>
+        <item> Adelaide, Australia</item>
+        <item> Dublin, Ireland</item>
+        <item> Odense, Denmark</item>
+        <item> Busan, South Korea</item>
+        <item> Linz, Austria</item>
+        <item> Hobart, Australia</item>
+        <item> Wellington, New Zealand</item>
+        <item> New Orleans, LA, United States</item>
+        <item> Luxembourg, Luxembourg</item>
+        <item> Gent, Belgium</item>
+        <item> Portland, OR, United States</item>
+        <item> Grenoble, France</item>
+        <item> Santa Barbara, CA, United States</item>
+        <item> Strasbourg, France</item>
+        <item> Jerusalem, Israel</item>
+        <item> Baltimore, MD, United States</item>
+        <item> Hartford, CT, United States</item>
+        <item> Waterloo, Canada</item>
+        <item> Des Moines, IA, United States</item>
+        <item> Genoa, Italy</item>
+        <item> Haarlem, Netherlands</item>
+        <item> Bolzano- Bozen, Italy</item>
+        <item> Milan, Italy</item>
+        <item> Cagliari, Italy</item>
+        <item> Darwin, Australia</item>
+        <item> Canberra, Australia</item>
+        <item> Grand Rapids, MI, United States</item>
+        <item> Antwerp, Belgium</item>
+        <item> Amsterdam, Netherlands</item>
+        <item> Detroit, MI, United States</item>
+        <item> Helsinki, Finland</item>
+        <item> Jersey City, NJ, United States</item>
+        <item> Saskatoon, Canada</item>
+        <item> Cleveland, OH, United States</item>
+        <item> Fort Lauderdale, FL, United States</item>
+        <item> Newcastle, Australia</item>
+        <item> Tacoma, WA, United States</item>
+        <item> San Diego, CA, United States</item>
+        <item> Bergamo, Italy</item>
+        <item> Jacksonville, FL, United States</item>
+        <item> Red Deer, Canada</item>
+        <item> Harrisburg, PA, United States</item>
+        <item> Nice, France</item>
+        <item> Halifax, Canada</item>
+        <item> The Hague, Netherlands</item>
+        <item> Lyon, France</item>
+        <item> Colorado Springs, CO, United States</item>
+        <item> Bournemouth, United Kingdom</item>
+        <item> Fayetteville, AR, United States</item>
+        <item> Buffalo, NY, United States</item>
+        <item> Hamburg, Germany</item>
+        <item> Wollongong, Australia</item>
+        <item> Brighton, United Kingdom</item>
+        <item> Frankfurt, Germany</item>
+        <item> Saint Paul, MN, United States</item>
+        <item> Atlanta, GA, United States</item>
+        <item> Brussels, Belgium</item>
+        <item> Houston, TX, United States</item>
+        <item> Charlotte, NC, United States</item>
+        <item> Milton Keynes, United Kingdom</item>
+        <item> Cambridge, United Kingdom</item>
+        <item> Indianapolis, IN, United States</item>
+        <item> Calgary, Canada</item>
+        <item> Tampa, FL, United States</item>
+        <item> Saint Louis, MO, United States</item>
+        <item> Tampere, Finland</item>
+        <item> Bakersfield, CA, United States</item>
+        <item> Gold Coast, Australia</item>
+        <item> Milwaukee, WI, United States</item>
+        <item> Syracuse, NY, United States</item>
+        <item> Edinburgh, United Kingdom</item>
+        <item> Rome, Italy</item>
+        <item> Turku, Finland</item>
+        <item> Cork, Ireland</item>
+        <item> Wichita, KS, United States</item>
+        <item> Montpellier, France</item>
+        <item> Haifa, Israel</item>
+        <item> Charlottesville, VA, United States</item>
+        <item> Little Rock, AR, United States</item>
+        <item> Savannah, GA, United States</item>
+        <item> Victoria, Canada</item>
+        <item> Gothenburg, Sweden</item>
+        <item> Innsbruck, Austria</item>
+        <item> Louisville, KY, United States</item>
+        <item> Plano, TX, United States</item>
+        <item> Edmonton, Canada</item>
+        <item> Bellingham, WA, United States</item>
+        <item> Tallahassee, FL, United States</item>
+        <item> Toulouse, France</item>
+        <item> Birmingham, AL, United States</item>
+        <item> Nashville, TN, United States</item>
+        <item> Greenville, SC, United States</item>
+        <item> Rennes, France</item>
+        <item> Reading, United Kingdom</item>
+        <item> Oxford, United Kingdom</item>
+        <item> Durham, NC, United States</item>
+        <item> Oulu, Finland</item>
+        <item> Utrecht, Netherlands</item>
+        <item> Bristol, United Kingdom</item>
+        <item> Fresno, CA, United States</item>
+        <item> Portsmouth, United Kingdom</item>
+        <item> Austin, TX, United States</item>
+        <item> Chattanooga, TN, United States</item>
+        <item> Spokane, WA, United States</item>
+        <item> Raleigh, NC, United States</item>
+        <item> Mississauga, Canada</item>
+        <item> Windsor, Canada</item>
+        <item> Columbus, OH, United States</item>
+        <item> Newark, NJ, United States</item>
+        <item> Norwich, United Kingdom</item>
+        <item> Vancouver, WA, United States</item>
+        <item> Regina, Canada</item>
+        <item> Burlington, Canada</item>
+        <item> Sioux Falls, SD, United States</item>
+        <item> Vancouver, Canada</item>
+        <item> Fort Worth, TX, United States</item>
+        <item> Eugene, OR, United States</item>
+        <item> London, Canada</item>
+        <item> Las Vegas, NV, United States</item>
+        <item> Montreal, Canada</item>
+        <item> Den Haag, Netherlands</item>
+        <item> Winnipeg, Canada</item>
+        <item> Rotterdam, Netherlands</item>
+        <item> San Juan, Puerto Rico</item>
+        <item> Southampton, United Kingdom</item>
+        <item> Virginia Beach, VA, United States</item>
+        <item> Lille, France</item>
+        <item> Munich, Germany</item>
+        <item> Barrie, Canada</item>
+        <item> Parma, Italy</item>
+        <item> Columbia, SC, United States</item>
+        <item> Heidelberg, Germany</item>
+        <item> Pensacola, FL, United States</item>
+        <item> Dayton, OH, United States</item>
+        <item> Tulsa, OK, United States</item>
+        <item> Fremont, CA, United States</item>
+        <item> Bologna, Italy</item>
+        <item> Dubai, United Arab Emirates</item>
+        <item> York, United Kingdom</item>
+        <item> Salem, OR, United States</item>
+        <item> Liverpool, United Kingdom</item>
+        <item> Toronto, Canada</item>
+        <item> Manchester, United Kingdom</item>
+        <item> Galway, Ireland</item>
+        <item> Dallas, TX, United States</item>
+        <item> Knoxville, TN, United States</item>
+        <item> Karlsruhe, Germany</item>
+        <item> Fort Wayne, IN, United States</item>
+        <item> Glasgow, United Kingdom</item>
+        <item> Trento, Italy</item>
+        <item> Fort Myers, FL, United States</item>
+        <item> Exeter, United Kingdom</item>
+        <item> Ad Dammam, Saudi Arabia</item>
+        <item> Eindhoven, Netherlands</item>
+        <item> Gainesville, FL, United States</item>
+        <item> Ann Arbor, MI, United States</item>
+        <item> Rochester, NY, United States</item>
+        <item> Malmo, Sweden</item>
+        <item> Leicester, United Kingdom</item>
+        <item> Groningen, Netherlands</item>
+        <item> Uppsala, Sweden</item>
+        <item> Madison, WI, United States</item>
+        <item> Leiden, Netherlands</item>
+        <item> Montevideo, Uruguay</item>
+        <item> Phoenix, AZ, United States</item>
+        <item> Kansas City, MO, United States</item>
+        <item> Doha, Qatar</item>
+        <item> Kingston, Canada</item>
+        <item> Cologne, Germany</item>
+        <item> Ottawa, Canada</item>
+        <item> Salt Lake City, UT, United States</item>
+        <item> Sliema, Malta</item>
+        <item> Shreveport, LA, United States</item>
+        <item> Vienna, Austria</item>
+        <item> Quebec City, Canada</item>
+        <item> Stuttgart, Germany</item>
+        <item> Moncton, Canada</item>
+        <item> Leeds, United Kingdom</item>
+        <item> Sheffield, United Kingdom</item>
+        <item> Albuquerque, NM, United States</item>
+        <item> Surrey, Canada</item>
+        <item> Mannheim, Germany</item>
+        <item> Nottingham, United Kingdom</item>
+        <item> Turin, Italy</item>
+        <item> Palermo, Italy</item>
+        <item> Huntsville, AL, United States</item>
+        <item> Birmingham, United Kingdom</item>
+        <item> Nantes, France</item>
+        <item> Newcastle Upon Tyne, United Kingdom</item>
+        <item> Coventry, United Kingdom</item>
+        <item> Kelowna, Canada</item>
+        <item> Mobile, AL, United States</item>
+        <item> Accra, Ghana</item>
+        <item> Guelph, Canada</item>
+        <item> Oklahoma City, OK, United States</item>
+        <item> Northampton, United Kingdom</item>
+        <item> Cardiff, United Kingdom</item>
+        <item> Taipei, Taiwan</item>
+        <item> Naples, Italy</item>
+        <item> Macao, Macao</item>
+        <item> Valletta, Malta</item>
+        <item> Brescia, Italy</item>
+        <item> Bari, Italy</item>
+        <item> Beirut, Lebanon</item>
+        <item> Plymouth, United Kingdom</item>
+        <item> Berlin, Germany</item>
+        <item> Abu Dhabi, United Arab Emirates</item>
+        <item> Kingston, Jamaica</item>
+        <item> Boise, ID, United States</item>
+        <item> Tucson, AZ, United States</item>
+        <item> Bilbao, Spain</item>
+        <item> Leipzig, Germany</item>
+        <item> Nuremberg, Germany</item>
+        <item> Panama City, Panama</item>
+        <item> Bonn, Germany</item>
+        <item> Catania, Italy</item>
+        <item> Belfast, United Kingdom</item>
+        <item> Kitchener, Canada</item>
+        <item> Reno, NV, United States</item>
+        <item> Marseille, France</item>
+        <item> Malta, Malta</item>
+        <item> San Jose, Costa Rica</item>
+        <item> Sharjah, United Arab Emirates</item>
+        <item> San Antonio, TX, United States</item>
+        <item> Barcelona, Spain</item>
+        <item> Athens, GA, United States</item>
+        <item> Paphos, Cyprus</item>
+        <item> Male, Maldives</item>
+        <item> Hamilton, Canada</item>
+        <item> Nicosia, Cyprus</item>
+        <item> Dresden, Germany</item>
+        <item> Graz, Austria</item>
+        <item> Irbil, Iraq</item>
+        <item> Amman, Jordan</item>
+        <item> Aachen, Germany</item>
+        <item> Madrid, Spain</item>
+        <item> Zaragoza( Saragossa), Spain</item>
+        <item> Springfield, MO, United States</item>
+        <item> Bremen, Germany</item>
+        <item> Palma De Mallorca, Spain</item>
+        <item> Buenos Aires, Argentina</item>
+        <item> Dar Es Salaam, Tanzania</item>
+        <item> Athens, Greece</item>
+        <item> Ljubljana, Slovenia</item>
+        <item> Ulaanbaatar, Mongolia</item>
+        <item> Limassol, Cyprus</item>
+        <item> Manama, Bahrain</item>
+        <item> Thessaloniki, Greece</item>
+        <item> Heraklion, Greece</item>
+        <item> Rio De Janeiro, Brazil</item>
+        <item> Sao Paulo, Brazil</item>
+        <item> Muscat, Oman</item>
+        <item> Santiago, Chile</item>
+        <item> Shanghai, China</item>
+        <item> Campinas, Brazil</item>
+        <item> Kaohsiung, Taiwan</item>
+        <item> Corfu, Greece</item>
+        <item> Brasilia, Brazil</item>
+        <item> Valencia, Spain</item>
+        <item> Santo Domingo, Dominican Republic</item>
+        <item> Shenzhen, China</item>
+        <item> Granada, Spain</item>
+        <item> Cordoba, Argentina</item>
+        <item> Chania, Greece</item>
+        <item> Alicante, Spain</item>
+        <item> Harare, Zimbabwe</item>
+        <item> Rijeka, Croatia</item>
+        <item> Tallinn, Estonia</item>
+        <item> Patras, Greece</item>
+        <item> Makati, Philippines</item>
+        <item> Guayaquil, Ecuador</item>
+        <item> Split, Croatia</item>
+        <item> Lisbon, Portugal</item>
+        <item> Phnom Penh, Cambodia</item>
+        <item> Jeddah( Jiddah), Saudi Arabia</item>
+        <item> Porto Alegre, Brazil</item>
+        <item> Tripoli, Libya</item>
+        <item> Bangkok, Thailand</item>
+        <item> Malaga, Spain</item>
+        <item> Sevilla, Spain</item>
+        <item> Phuket, Thailand</item>
+        <item> Beijing, China</item>
+        <item> Riga, Latvia</item>
+        <item> Zagreb, Croatia</item>
+        <item> Porto, Portugal</item>
+        <item> Riyadh, Saudi Arabia</item>
+        <item> Quito, Ecuador</item>
+        <item> Recife, Brazil</item>
+        <item> Florianopolis, Brazil</item>
+        <item> Tartu, Estonia</item>
+        <item> Al Khobar, Saudi Arabia</item>
+        <item> Jakarta, Indonesia</item>
+        <item> San Salvador, El Salvador</item>
+        <item> Bratislava, Slovakia</item>
+        <item> Belo Horizonte, Brazil</item>
+        <item> Coimbra, Portugal</item>
+        <item> Maribor, Slovenia</item>
+        <item> Cuenca, Ecuador</item>
+        <item> Addis Ababa, Ethiopia</item>
+        <item> Vilnius, Lithuania</item>
+        <item> Curitiba, Brazil</item>
+        <item> Concepcion, Chile</item>
+        <item> Braga, Portugal</item>
+        <item> Kota Kinabalu, Malaysia</item>
+        <item> Guangzhou, China</item>
+        <item> Johannesburg, South Africa</item>
+        <item> Guatemala City, Guatemala</item>
+        <item> Kaunas, Lithuania</item>
+        <item> Kosice, Slovakia</item>
+        <item> Surabaya, Indonesia</item>
+        <item> Fortaleza, Brazil</item>
+        <item> Istanbul, Turkey</item>
+        <item> Windhoek, Namibia</item>
+        <item> Cape Town, South Africa</item>
+        <item> Bali, Indonesia</item>
+        <item> Kuala Lumpur, Malaysia</item>
+        <item> Budapest, Hungary</item>
+        <item> Prague, Czech Republic</item>
+        <item> Moscow, Russia</item>
+        <item> Ho Chi Minh City, Vietnam</item>
+        <item> Pattaya, Thailand</item>
+        <item> Penang, Malaysia</item>
+        <item> Osijek, Croatia</item>
+        <item> Nairobi, Kenya</item>
+        <item> Kuching, Malaysia</item>
+        <item> Chiang Mai, Thailand</item>
+        <item> Hanoi, Vietnam</item>
+        <item> Lima, Peru</item>
+        <item> Tehran, Iran</item>
+        <item> Johor Bahru, Malaysia</item>
+        <item> Kigali, Rwanda</item>
+        <item> Selangor, Malaysia</item>
+        <item> Brno, Czech Republic</item>
+        <item> Durban, South Africa</item>
+        <item> Warsaw, Poland</item>
+        <item> Manila, Philippines</item>
+        <item> Rabat, Morocco</item>
+        <item> Debrecen, Hungary</item>
+        <item> Cebu, Philippines</item>
+        <item> Ankara, Turkey</item>
+        <item> Antalya, Turkey</item>
+        <item> Saint Petersburg, Russia</item>
+        <item> Gaborone, Botswana</item>
+        <item> Lagos, Nigeria</item>
+        <item> Podgorica, Montenegro</item>
+        <item> Izmir, Turkey</item>
+        <item> Bucharest, Romania</item>
+        <item> Olomouc, Czech Republic</item>
+        <item> Caracas, Venezuela</item>
+        <item> Bursa, Turkey</item>
+        <item> Bydgoszcz, Poland</item>
+        <item> Wroclaw, Poland</item>
+        <item> Colombo, Sri Lanka</item>
+        <item> Ostrava, Czech Republic</item>
+        <item> Gdansk, Poland</item>
+        <item> Sarajevo, Bosnia And Herzegovina</item>
+        <item> Gdynia, Poland</item>
+        <item> Krakow( Cracow), Poland</item>
+        <item> Bogota, Colombia</item>
+        <item> Sofia, Bulgaria</item>
+        <item> Dhaka, Bangladesh</item>
+        <item> Bandung, Indonesia</item>
+        <item> Poznan, Poland</item>
+        <item> Szczecin, Poland</item>
+        <item> Casablanca, Morocco</item>
+        <item> Cluj-napoca, Romania</item>
+        <item> Belgrade, Serbia</item>
+        <item> Kampala, Uganda</item>
+        <item> Lodz, Poland</item>
+        <item> Algiers, Algeria</item>
+        <item> Lublin, Poland</item>
+        <item> Plovdiv, Bulgaria</item>
+        <item> Varna, Bulgaria</item>
+        <item> Astana, Kazakhstan</item>
+        <item> Timisoara, Romania</item>
+        <item> Mexico City, Mexico</item>
+        <item> Cancun, Mexico</item>
+        <item> Quezon City, Philippines</item>
+        <item> Sibiu, Romania</item>
+        <item> Skopje, Macedonia</item>
+        <item> Banja Luka, Bosnia And Herzegovina</item>
+        <item> Yekaterinburg, Russia</item>
+        <item> Katowice, Poland</item>
+        <item> Monterrey, Mexico</item>
+        <item> Minsk, Belarus</item>
+        <item> Oradea, Romania</item>
+        <item> Queretaro, Mexico</item>
+        <item> Iasi, Romania</item>
+        <item> Playadel Carmen, Mexico</item>
+        <item> Brasov, Romania</item>
+        <item> Novi Sad, Serbia</item>
+        <item> Islamabad, Pakistan</item>
+        <item> Yerevan, Armenia</item>
+        <item> Tirana, Albania</item>
+        <item> Asuncion, Paraguay</item>
+        <item> Almaty, Kazakhstan</item>
+        <item> Arad, Romania</item>
+        <item> Kathmandu, Nepal</item>
+        <item> Lahore, Pakistan</item>
+        <item> Novosibirsk, Russia</item>
+        <item> Medellin, Colombia</item>
+        <item> Kazan, Russia</item>
+        <item> Merida, Mexico</item>
+        <item> Gurgaon, India</item>
+        <item> Tijuana, Mexico</item>
+        <item> Davao, Philippines</item>
+        <item> Tunis, Tunisia</item>
+        <item> Guadalajara, Mexico</item>
+        <item> Valenzuela, Philippines</item>
+        <item> Cali, Colombia</item>
+        <item> Mumbai, India</item>
+        <item> Odesa, Ukraine</item>
+        <item> Delhi, India</item>
+        <item> Ludhiana, India</item>
+        <item> Kiev, Ukraine</item>
+        <item> Tbilisi, Georgia</item>
+        <item> Chisinau, Moldova</item>
+        <item> Karachi, Pakistan</item>
+        <item> Baku, Azerbaijan</item>
+        <item> Thane, India</item>
+        <item> Noida, India</item>
+        <item> Bangalore, India</item>
+        <item> Pune, India</item>
+        <item> Chennai, India</item>
+        <item> Pristina, Kosovo( Disputed Territory)</item>
+        <item> Chandigarh, India</item>
+        <item> Kharkiv, Ukraine</item>
+        <item> Vadodara, India</item>
+        <item> Kolkata, India</item>
+        <item> Dnipropetrovsk, Ukraine</item>
+        <item> Navi Mumbai, India</item>
+        <item> Surat, India</item>
+        <item> Lucknow( Lakhnau), India</item>
+        <item> Goa, India</item>
+        <item> Ahmedabad, India</item>
+        <item> Jaipur, India</item>
+        <item> Lviv, Ukraine</item>
+        <item> Nagpur, India</item>
+        <item> Guwahati, India</item>
+        <item> Indore, India</item>
+        <item> Sumy, Ukraine</item>
+        <item> Mysore, India</item>
+        <item> Nasik, India</item>
+        <item> Hyderabad, India</item>
+        <item> Kochi, India</item>
+        <item> Visakhapatnam, India</item>
+        <item> Coimbatore, India</item>
+        <item> Bhubaneswar, India</item>
+        <item> Cairo, Egypt</item>
+        <item> Mangalore, India</item>
+        <item> Madurai, India</item>
+        <item> Thiruvananthapuram, India</item>
+
 
     </string-array>
 
@@ -1672,7 +1675,7 @@
         <item>20.84</item>
 
     </string-array>
-    
+
     <string-array name="Restaurant">
         <item>150.12</item>
         <item>130.02</item>
@@ -2228,7 +2231,6 @@
         <item>11.41</item>
 
     </string-array>
-
 
 
 </resources>
