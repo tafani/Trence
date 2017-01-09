@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Trence</string>
     <string name="title">TRENCE</string>
     <string name="quotes">We will help you to go to your dream places</string>
     <string name="title_activity_starting">Starting</string>
@@ -2231,6 +2231,11 @@
         <item>11.41</item>
 
     </string-array>
+    <string name="title_activity_schedule">schedule</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="plane">plane</string>
 
 
 </resources>

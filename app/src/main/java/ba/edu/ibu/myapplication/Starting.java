@@ -1,5 +1,6 @@
 package ba.edu.ibu.myapplication;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -20,7 +21,9 @@ public class Starting extends AppCompatActivity {
     static EditText daysET;
     static EditText budgetET;
     static String[] cities;
+
     @Override
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.getting_info);
@@ -42,11 +45,11 @@ public class Starting extends AppCompatActivity {
         if(destin.getText().toString().equals("")){
             Toast.makeText(getApplicationContext(),"You cannot leave the destination empty ",Toast.LENGTH_LONG).show();
         } else
-        if(daysET.getText().toString().equals("")){
-            Toast.makeText(getApplicationContext(),"You cannot leave the period empty"+daysET.getText(),Toast.LENGTH_LONG).show();
-        } else
         if(budgetET.getText().toString().equals("")){
             Toast.makeText(getApplicationContext(),"You cannot leave the budget empty",Toast.LENGTH_LONG).show();
+        } else
+        if(daysET.getText().toString().equals("")){
+            Toast.makeText(getApplicationContext(),"You cannot leave the period empty"+daysET.getText(),Toast.LENGTH_LONG).show();
         } else
         {
             int days = Integer.parseInt(daysET.getText().toString());
